@@ -1,4 +1,4 @@
-package decorator;
+package decorator.audi;
 
 public class DecoratorMain {
     public static void main(String[] args) {

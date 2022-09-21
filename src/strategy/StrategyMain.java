@@ -6,7 +6,6 @@ public class StrategyMain {
         Encoder encoder = new Encoder();
         String message = "hello java";
 
-        // base64
         EncodingStrategy base64 = new Base64Strategy();
 
         encoder.setEncodingStrategy(base64);
@@ -26,7 +25,6 @@ public class StrategyMain {
         encoder.setEncodingStrategy(append);
         String appendResult = encoder.getMessage(message);
         System.out.println(appendResult);
-
 
 
     }
