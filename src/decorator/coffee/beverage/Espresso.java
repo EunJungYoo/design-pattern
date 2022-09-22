@@ -4,7 +4,7 @@ package decorator.coffee.beverage;
 public class Espresso extends Beverage{
 
     public Espresso() {
-        description = "에스프레소"; // super 키워드 공부하기
+        description = "에스프레소";
 
     }
 

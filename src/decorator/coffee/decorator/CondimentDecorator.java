@@ -9,7 +9,7 @@ public abstract class CondimentDecorator extends Beverage {
 
     Beverage beverage;
 
-    // 모든 첨가물 데코러이터에 getDescription() 메소드를 구현하도록 강제.
+    // 모든 첨가물 데코레이터에 getDescription() 메소드를 구현하도록 강제.
     public abstract  String getDescription();
 
 }

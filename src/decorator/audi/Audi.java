@@ -2,7 +2,7 @@ package decorator.audi;
 
 public class Audi implements ICar{
 
-    private int price;
+    private int price = 0;
 
     public Audi(int cost){
         this.price = cost;
